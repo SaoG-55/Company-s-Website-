@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/0bcbe0ce2c.js" crossorigin="anonymous"></script>
+  <!-- CSS Files Links -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Title -->
+  <title>PW-Web Page</title>
+</head>
+<body class="bg-orange-500 font-serif"> <!-- tailwind prop -->
+ <!-- navbar comes here  -->
+   <nav class="w-full h-14 text-white bg-orange-400 flex justify-between items-center px-2 py-2 md:px-4 md:py-4 fixed">
+      <div class="text-2xl text-red-700 font-bold ">Pw Logo</div>
+
+      <ul class="md:flex hidden font-bold">
+         <li class="mx-3 cursor-pointer hover:text-red-700"><a href="#">Home</a></li>
+         <li class="mx-3 cursor-pointer hover:text-red-700"><a href="#">About Us</a></li>
+         <li class="mx-3 cursor-pointer hover:text-red-700"><a href="#">Contact</a></li>
+      </ul>
+
+      <div class=" hidden md:inline-block  cursor-pointer px-[4px] py-[4px] border-1 border-red-800 bg-red-700 hover:bg-red-400 hover:border-1  rounded-md font-bold">Login/Sign-up</div>
+       <div class="md:hidden px-2  text-3xl">
+         <a href="#">&#8801;</a>
+      </div> <!--entity hamburger-->
+
+   </nav>
+   <!-- navbar ends here  -->
+
+   <!-- img begins here  -->
+   <header class="w-full h-auto"><!-- h-dvh==> to make an element span the entire height of the viewport, which changes as the browser UI expands or contracts. -->
+      <img class="hidden md:block  w-full h-[90vh]" src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img2">
+      <img class="md:hidden w-full h-[90vh]" src="https://images.unsplash.com/photo-1588702547981-5f8fed370e68?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img1">
+   </header> 
+   <!-- img ends here  -->
+
+   <!-- Student section begins here -->
+   <div class="w-full h-auto flex flex-col flex-wrap items-center justify-center p-12"><!--total footer div-->
+       
+      <!--inner div contains text and line-->
+      <div class="w-full h-auto flex flex-col flex-wrap items-center justify-center"> 
+            
+            <p class="text-2xl md:text-3xl font-bold text-center text-white mt-[-34px]">"Pure Hardwork,No Shortcuts"</p>
+            <div class="h-1 w-[211px] border-b-4 border-red-700 mt-1 mb-10 md:mt-2"></div> <!--line-->
+      </div>
+      <!-- text and line ends here-->
+
+         <!--inner div icons begin here -->
+      <div class="w-full flex flex-wrap justify-evenly mb-10">
+            <!--icon1-->
+            <div class="w-[180px] h-[180px] flex flex-col items-center bg-red-700 rounded-full p-[30px] ">  
+               <i class="fa-solid fa-swatchbook text-5xl"></i>
+               <p class="text-white font-bold text-2xl">600+</p>
+               <p class="text-gray-300 font-bold text-center">Different Courses</p>
+            </div>
+               <!--icon2-->
+            <div class="w-[180px] h-[180px] flex flex-col items-center bg-red-700 rounded-full p-[30px] ">  
+               <i class="fa-solid fa-graduation-cap text-5xl"></i>
+               <p class="text-white font-bold text-2xl">2600+</p>
+               <p class="text-gray-300 font-bold text-center">Students Enrolled</p>
+            </div>
+
+            <!--icon3-->
+            <div class="w-[180px] h-[180px] flex flex-col items-center bg-red-700 rounded-full p-[30px] ">  
+               <i class="fa-solid fa-credit-card text-5xl"></i>
+               <p class="text-white font-bold text-2xl">400+</p>
+               <p class="text-gray-300 font-bold text-center">Sucessfull Transitions</p>
+            </div>
+
+      </div>
+         <!--inner div icons end here -->
+   </div>
+   <!-- Student section ends here -->
+
+   <!--Product Section begins here-->
+      <div class="w-full h-auto flex flex-col flex-wrap justify-center items-center p-12 ">
+         
+         <!--text(Product) and line begins here-->
+         <div class="w-full h-auto flex flex-col flex-wrap justify-center items-center ">
+            <p class="text-2xl md:text-3xl font-bold text-center text-white mt-[-87px]"> Products </p>
+            <div class="h-1 w-[100px] border-b-4 border-red-700 mt-1 md:mt-2"></div>
+         </div>
+         <!--text(Product) and line ends here-->
+
+         <!--div contains a group of cards-->
+         <div class="w-[90%] h-auto flex flex-wrap justify-around  ">
+            
+            <!--card1-->
+            <div class="w-[200px] h-[250px]  flex flex-col items-center justify-center border-2 bg-red-700 border-black rounded-xl  shadow-2xl shadow-black mb-12 mx-10 md:mx-2">
+               <i class="fa-brands fa-draft2digital text-9xl mt-0"></i>
+               <p class="text-center  text-white text-lg">PW Skills Lab</p>
+               <p class="text-center text-gray-300">Supercharge your project development with our robust lab</p>
+            </div>
+
+            <!--card2-->
+            <div class="w-[150px] h-[200px]  flex flex-col items-center justify-center border-2 bg-red-700 border-black rounded-xl  shadow-2xl shadow-black mb-12 mx-10 md:mx-2">
+               <i class="fa-brands fa-draft2digital text-6xl mt-0"></i>
+               <p class="text-center  text-white text-md">PW Skills Lab</p>
+               <p class="text-center text-gray-300 text-sm">Supercharge your project development with our robust lab</p>
+            </div>
+
+            <!--card3-->
+            <div class="w-[150px] h-[200px]  flex flex-col items-center justify-center border-2 bg-red-700 border-black rounded-xl  shadow-2xl shadow-black mb-12 mx-10 md:mx-2">
+               <i class="fa-brands fa-draft2digital text-6xl mt-0"></i>
+               <p class="text-center  text-white text-md">PW Skills Lab</p>
+               <p class="text-center text-gray-300 text-sm">Supercharge your project development with our robust lab</p>
+            </div>
+
+            <!--card4-->
+            <div class="w-[150px] h-[200px]  flex flex-col items-center justify-center border-2 bg-red-700 border-black rounded-xl  shadow-2xl shadow-black mb-12 mx-10 md:mx-2">
+               <i class="fa-brands fa-draft2digital text-6xl mt-0"></i>
+               <p class="text-center  text-white text-md">PW Skills Lab</p>
+               <p class="text-center text-gray-300 text-sm">Supercharge your project development with our robust lab</p>
+            </div>
+
+            <!--card5-->
+            <div class="w-[200px] h-[250px]  flex flex-col items-center justify-center border-2 bg-red-700 border-black rounded-xl  shadow-2xl shadow-black mb-12 mx-10 md:mx-2">
+               <i class="fa-brands fa-draft2digital text-9xl mt-0"></i>
+               <p class="text-center  text-white text-lg">PW Skills Lab</p>
+               <p class="text-center text-gray-300">Supercharge your project development with our robust lab</p>
+            </div>
+
+           
+
+            
+
+           
+
+            
+
+            
+         </div>
+         <!--group of card div-->
+
+      </div>
+      <!--Product Section ends here-->
+
+</body>
+</html>
